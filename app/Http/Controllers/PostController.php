@@ -15,8 +15,8 @@ class PostController extends Controller
      */
     public function index()
     {
-        return 'Hi';
-        //return Post::all();
+        //return 'Hi';
+        return Post::all();
     }
 
     /**
